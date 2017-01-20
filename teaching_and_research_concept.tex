@@ -79,7 +79,7 @@
 		color=black,
 		opacity=0.60,
 		scale=2.5,
-		contents={\tikz\node[text=black,fill=gray!40,align=left, minimum width=2.3cm,minimum height=0.6cm,inner sep=0]{New Results};}}
+		contents={\tikz\node[text=black,fill=gray!40,align=left, minimum width=6.0cm,minimum height=0.6cm,inner sep=0]{Salzburg, Evolutionary Zoology};}}
 \fi%
 }
 
@@ -150,19 +150,19 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
-\lhead{{\footnotesize Author et al.}}
+\lhead{{\footnotesize Vargas, 2017}}
 \chead{}
-\rhead{{\footnotesize Running head here}}
+\rhead{{\footnotesize Salzburg Evolutionary Biology, Teaching Concept}}
 \lfoot{\ccbynd}
 \cfoot{\thepage}
-\rfoot{\biorxiv}
+\rfoot{}
 
 %redefine plain header
 \fancypagestyle{plain}{
 \renewcommand{\headrulewidth}{0pt}
-\lhead{\biorxiv}
+\lhead{}
 \chead{}
-\rhead{{\footnotesize DOI here if wanted}}
+\rhead{{\footnotesize}}
 \lfoot{}
 \cfoot{\ccbynd}
 \rfoot{}
@@ -179,7 +179,7 @@
 	\SetWatermarkHorCenter{0.97\paperwidth}
 	\SetWatermarkVerCenter{-.88\paperheight}
 \else
-	\SetWatermarkText{Preprint}
+	\SetWatermarkText{Teaching Concept}
 	\SetWatermarkScale{0.25}
 	\SetWatermarkAngle{270}
 	%note: I defined this commands in the draftwatermark.sty file. For some reason they are in teh manual but not in the sty file...
@@ -188,9 +188,9 @@
 \fi
 
 %uncomment the type of bioRxiv preprint below to added to the first page
-%\newresults{}
+\newresults{}
 %\confirmatoryresults{}
-\contradictoryresults{}
+%\contradictoryresults{}
 
 %flushleft the title, authorblock and Abstract
 %modified from http://tex.stackexchange.com/questions/85343/left-align-abstract-title-and-authors
@@ -234,14 +234,13 @@
 \begin{document}
 
 %always keep the \newline command at the end of the title to add space between the title and the authors
-\title{\Large Your title here \newline}
+\title{\Large Teaching Concept\newline}
 
-\author[1]{Author 1}
-\author[2]{Author 2 \footnote[2]{Correspondence author: \href{email@lmu.de}{email@lmu.de}}}
+\author[1]{Sergio Vargas \footnote[2]{\href{sergio.vargas@lmu.de}{sergio.vargas@lmu.de}}}
 %\author[1,3,4]{Author with multiple affiliations}
 
 \affil[1]{Department of Earth- \& Environmental Sciences, Palaeontology and Geobiology, Ludwig-Maximilians-Universtit\"at M\"unchen, Richard-Wagner Str. 10, D-80333 M\"unchen, Germany}
-\affil[2]{Forschungsinstitut und Naturmuseum Senckenberg, Senckenberganlage 25, D-60325 Frankfurt am Main, Germany}
+%\affil[2]{Forschungsinstitut und Naturmuseum Senckenberg, Senckenberganlage 25, D-60325 Frankfurt am Main, Germany}
 %\affil[3]{Bavarian State Collections of Palaeontology and Geology, Richard-Wagner Str. 10, D-80333 M\"unchen, Germany}
 %\affil[4]{GeoBio-CenterLMU, Richard-Wagner Str. 10, D-80333 M\"unchen, Germany}
 
@@ -256,33 +255,23 @@ Blah, blah, blah.
 \textbf{Key words} Blah, Blah blah.
 \end{abstract}
 
-\section{Introduction}
-Blah blah blah.
+\section{Teaching experience, continuing education and developed teaching concept}
 
-\section{Materials and Methods}
 
-Blah blah \cite[see ][ for details]{Vargasetal_2012_PLoSONE}blah.
-%\subsection{Use subsections if wanted}
 
-\section{Results}
-Blah blah blah \cite[e.g. ][]{BreedyandGuzman_2003a_Zootaxa}.
-%\subsection{Use subsections if wanted}
 
-\section{Discussion}
+\section{Courses taught in Munich}
 
-Blah blah blah. \cite{AmentVelasquezetal_2016_MPE}
-%\subsection{Use subsections if wanted}
 
-\section{Conclusion}
 
-Blah blah blah.
+\section{Similar courses in Salzburg}
 
-\section*{Acknowledgements}
 
-Blah blah blah.
-%this is how you use todonotes:
 
-\todo[inline]{this is how you can add todo notes to your manuscript!...}
+\section{Challenges to be faced in Salzburg}
+
+
+%\todo[inline]{this is how you can add todo notes to your manuscript!...}
 
 %if you want to add the references manually uncomment the following lines
 %\section*{References}
@@ -293,12 +282,12 @@ Blah blah blah.
 %you also need to comment the line \bibliography{./Bibliography/Literature} in the preamble...
 
 %if you use bibtex use it to print the bibliography
-\printbibliography
+%\printbibliography
 
 %Paste tables and figures here if you want them to appear at the end of the preprint. Otherwise place them wherever you want!
 
 \newpage
 
-\listoftodos[To Do:]
+%\listoftodos[To Do:]
 
 \end{document}
