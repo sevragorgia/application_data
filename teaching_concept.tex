@@ -231,12 +231,15 @@
 %change the name of this file to point to your bib file.
 \bibliography{./Bibliography/Literature}
 
+%global no indent
+\setlength{\parindent}{0pt}
+
 \begin{document}
 
 %always keep the \newline command at the end of the title to add space between the title and the authors
 \title{\Large Teaching Concept\newline}
 
-\author[1]{Sergio Vargas \footnote[2]{\href{sergio.vargas@lmu.de}{sergio.vargas@lmu.de}}}
+\author[1]{Sergio Vargas R.\footnote[2]{\href{sergio.vargas@lmu.de}{sergio.vargas@lmu.de}}}
 %\author[1,3,4]{Author with multiple affiliations}
 
 \affil[1]{Department of Earth- \& Environmental Sciences, Palaeontology and Geobiology, Ludwig-Maximilians-Universtit\"at M\"unchen, Richard-Wagner Str. 10, D-80333 M\"unchen, Germany}
@@ -248,27 +251,33 @@
 
 \maketitle
 %\tableofcontents
-\begin{abstract}
-Blah, blah, blah.
-\\
+%\begin{abstract}
+%Blah, blah, blah.
+%\\
 
-\textbf{Key words} Blah, Blah blah.
-\end{abstract}
+%\textbf{Key words} Blah, Blah blah.
+%\end{abstract}
 
-\section{Teaching experience, continuing education and developed teaching concept}
+\section*{Teaching experience}
+
+My duties as a ``Wissenschaftlicher Assistent'' at the LMU M\"unchen involve teaching a weekly load of five hours during the semester. Below, I will provide a brief account of the courses I have taught and later I will describe the way each course proceeds and what it usually covers.\\
+
+I have been teaching different courses since I started my current position in 2013 and had the opportunity to participate in the transition to new Bachelor and Master level \emph{curricula}. This way I was able to participate in the conception and design of new courses and get first-hand experience on the process of transforming \emph{curricula} and the associated challenges this involves (e.g.~Bologna-conformity, Module-conception).\\
+
+During the first two semesters I had to teach courses belonging to the previous Master and Bachelor programs. These included a paleozoology laboratory for third semester students of the Bachelor in Geosciences program and an advanced first semester Master-level seminar on Life-Earth Interactions during the Precambrian.\\
+
+Starting on the Winter Semester 2014-2015, I took over all our courses dealing specifically with Data Analysis and developed a laboratory course on Geomicrobiology. For these courses I took the responsibility of developing the lectures/practicals for our new Bachelor and Master programs. These are now organized as a Bachelor level introductory course on data management and data analysis and visualization using R and a Master level lecture on statistics; this lecture is currently being redesigned to include a practical starting on the summer semester of 2018. The Geomicrobiology practical involves a ca. one week full-time molecular laboratory practical followed by a one or two day data analysis and bioinformatics hands-on tutorial. This course is now taught by Prof.~Dr.~William Orsi, but the concept I proposed (see below) has remained essentially unaltered during the transition.\\
+
+In addition to the above mentioned courses, I am jointly responsible for our Bachelor and Master level course on Evolution, which serve as an introduction to evolutionary biology for students with a core background in Geosciences. Finally, my teaching load also involves contributing on a number of other miscellaneous Master level seminars taught by the faculty and designed to communicate our research to the new students, to teach communication skills to our students, and to increase their research skills.
+
+\section*{Developed teaching concept and continuing education}
+
+The challenges I faced designing different types of courses at both Bachelor and Master level led me to enroll myself in the \underline{PROFI} in der \underline{L}ehre (PROFIL) continuing education program of the LMU. The PROFIL program offer a series of courses and seminars to university staff with a teaching duty. The courses deal with different topics related to the conception of different types of courses, the deployment of different evaluation forms, student counseling, advising, mentoring and coaching, and other soft skills like flipchart creation.
+
+\section*{Similar courses in the Salzburger curriculum}
 
 
-
-
-\section{Courses taught in Munich}
-
-
-
-\section{Similar courses in Salzburg}
-
-
-
-\section{Challenges to be faced in Salzburg}
+\section*{Challenges to be faced in Salzburg}
 
 
 %\todo[inline]{this is how you can add todo notes to your manuscript!...}
@@ -289,5 +298,4 @@ Blah, blah, blah.
 \newpage
 
 %\listoftodos[To Do:]
-
 \end{document}
